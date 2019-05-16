@@ -31,7 +31,8 @@ node_modules
 .idea
 .vscode
 
-# macOS.gitignore
+
+## macOS.gitignore
 # General
 .DS_Store
 .AppleDouble
