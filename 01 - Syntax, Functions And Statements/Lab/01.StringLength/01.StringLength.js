@@ -5,7 +5,7 @@
  * @param {String} thirdString
  */
 
-function sameNumbers(firstString, secondString, thirdString) {
+function stringLength(firstString, secondString, thirdString) {
     let firstStringLength = firstString.length;
     let secondStringLength = secondString.length;
     let thirdStringLength = thirdString.length;
@@ -19,4 +19,4 @@ function sameNumbers(firstString, secondString, thirdString) {
 }
 
 // Test
-// console.log(sameNumbers("sample", "test", "text"));
+// stringLength("sample", "test", "text");
