@@ -22,5 +22,5 @@ function largestNumber(number1, number2, number3) {
 }
 
 // Test
-// largestNumber(100, 200, 300);
-// largestNumber(-100, -200, -300);
+largestNumber(5, -3, 16);
+largestNumber(-3, -5, -22.5);
