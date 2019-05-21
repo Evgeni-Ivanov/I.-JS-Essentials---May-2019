@@ -1,0 +1,18 @@
+/**
+ *
+ * @param {Number} number1
+ * @param {Number} number2
+ * @param {Number} number3
+ */
+
+function largestNumber(number1, number2, number3) {
+    let result;
+
+    result = Math.max(number1, number2, number3);
+
+    console.log(`The largest number is ${result}.`);
+}
+
+// Test
+// largestNumber(5, -3, 16);
+// largestNumber(-3, -5, -22.5);
