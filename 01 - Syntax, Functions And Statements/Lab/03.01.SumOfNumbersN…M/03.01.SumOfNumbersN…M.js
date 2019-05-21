@@ -13,11 +13,9 @@ function sumOfNumbersNToM(n, m) {
         sum += i;
     }
 
-    return sum;
-
     console.log(sum);
 }
 
 // Test
-sumOfNumbersNToM("1","5");
-sumOfNumbersNToM("1","100");
+// sumOfNumbersNToM("1","5");
+// sumOfNumbersNToM("1","100");
