@@ -33,9 +33,5 @@ function mathOperations(number1, number2, operator) {
 }
 
 //Test
-// mathOperations(2, 10, "+");
-// mathOperations(2, 10, "-");
-// mathOperations(2, 10, "*");
-// mathOperations(2, 10, "/");
-// mathOperations(2, 10, "%");
-// mathOperations(2, 10, "**");
+// mathOperations(5, 6, "+");
+// mathOperations(3, 5.5, "*");
