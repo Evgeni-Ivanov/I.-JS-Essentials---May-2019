@@ -4,7 +4,6 @@
  * @param number2
  * @param operator
  */
-
 function mathOperations(number1, number2, operator) {
     let result = 0;
 
