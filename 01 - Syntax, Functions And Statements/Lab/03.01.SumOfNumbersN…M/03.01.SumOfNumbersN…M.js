@@ -3,7 +3,6 @@
  * @param {String} n
  * @param {String} m
  */
-
 function sumOfNumbersNToM(n, m) {
     let number1 = Number(n);
     let number2 = Number(m);
