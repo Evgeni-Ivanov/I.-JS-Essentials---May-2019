@@ -4,7 +4,6 @@
  * @param {Number} number2
  * @param {Number} number3
  */
-
 function largestNumber(number1, number2, number3) {
     let result;
 
