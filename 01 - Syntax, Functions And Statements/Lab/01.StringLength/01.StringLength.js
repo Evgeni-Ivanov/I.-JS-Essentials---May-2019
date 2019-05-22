@@ -4,7 +4,6 @@
  * @param {String} secondString
  * @param {String} thirdString
  */
-
 function stringLength(firstString, secondString, thirdString) {
     let firstStringLength = firstString.length;
     let secondStringLength = secondString.length;
