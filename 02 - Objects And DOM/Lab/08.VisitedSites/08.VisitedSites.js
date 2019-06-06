@@ -3,7 +3,7 @@ function visitedSites() {
 
     for (let currentDivElement = 0; currentDivElement < divElements.length; currentDivElement++) {
         divElements[currentDivElement].addEventListener("click", function changeVisits() {
-            
+
             let numberOfVisitsElementWords = divElements[currentDivElement].querySelector("p").textContent.split(" ");
             let currentNumberOfVisits = Number(numberOfVisitsElementWords[1]);
 
