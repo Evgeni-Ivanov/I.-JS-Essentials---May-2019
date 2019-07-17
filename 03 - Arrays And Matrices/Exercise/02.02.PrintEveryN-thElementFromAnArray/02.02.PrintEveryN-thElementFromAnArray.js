@@ -1,0 +1,40 @@
+/**
+ *
+ * @param {Array} input
+ */
+function printEveryNthElementFromAnArray(input) {
+    let n = Number(input.pop());
+
+    input.forEach((element, index) => {
+
+        if (index % n === 0) {
+
+            console.log(element);
+        }
+
+    });
+}
+
+// Test
+//
+// printEveryNthElementFromAnArray(['5',
+//     '20',
+//     '31',
+//     '4',
+//     '20',
+//     '2']);
+//
+// printEveryNthElementFromAnArray(['dsa',
+//     'asd',
+//     'test',
+//     'tset',
+//     '2']
+// );
+//
+// printEveryNthElementFromAnArray(['1',
+//     '2',
+//     '3',
+//     '4',
+//     '5',
+//     '6']
+// );
